@@ -270,6 +270,7 @@ class MyServer(BaseHTTPRequestHandler):
     <div class="b-example-divider"></div>
 
     <div class="container">
+        <div class="overflow-y-auto">
         <header>
             <div class="pricing-header p-3 pb-md-4 mx-auto text-center">
                 <h1 class="display-4 fw-normal text-body-emphasis">Главная</h1>
@@ -354,6 +355,7 @@ class MyServer(BaseHTTPRequestHandler):
                     </div>
                 </div>
             </div>
+            </div>
         </main>
     
     </div>
@@ -363,6 +365,9 @@ class MyServer(BaseHTTPRequestHandler):
         integrity="sha384-geWF76RCwLtnZ8qwWowPQNguL3RmwHVBC9FhGdlKrxdiJJigb/j/68SIy3Te4Bkz"
         crossorigin="anonymous"></script>
 
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" 
+        integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" 
+        crossorigin="anonymous"></script>
 
 <script>
     /* global bootstrap: false */
